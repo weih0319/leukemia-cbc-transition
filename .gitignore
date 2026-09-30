@@ -1,0 +1,32 @@
+# Patient-level data and derived row-level files
+data/raw/
+*.xlsx
+*.xls
+*.csv
+*.csv.gz
+*.parquet
+*.feather
+*.joblib
+
+# Generated reports and figures
+analysis/formal_analysis_three_centers/
+analysis/prepared_data/
+analysis/state_transitions/*.png
+analysis/state_transitions/*.pdf
+analysis/state_transitions/*.json
+analysis/state_transitions/*.md
+analysis/ml/*.png
+analysis/ml/*.pdf
+analysis/ml/*.json
+analysis/ml/round2/*.png
+analysis/ml/round2/*.pdf
+analysis/ml/round2/*.json
+
+# Python and editor files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
